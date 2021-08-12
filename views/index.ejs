@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPP</title>
+    <link rel="stylesheet" type="text/css" href="./css/tachyons.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    
+</head>
+<body class="bg-light-green" >
+    <div class="main-page  ">
+        <div  class=" w-100 bg-blue header pa1">
+            <h2 class="tc white f3 vd ls pa0 ">WeatherAPP</h2>
+        </div>
+        <form class="weather-form w-50 br3 bg-blue mra mla mt5 pa5 shadow-5" action="/weather" method="POST">
+            <input class="pa2 w-60 br3 bn db  vd mra mla " name= "city" placeholder="Enter the city name">
+            <input class="pa2 bg-dark-red mra mla  br3 bn  ls ma3 db white vd " type="submit">
+
+        </form>
+    </div>
+</body>
+</html>

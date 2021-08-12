@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPP</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/tachyons.min.css">
+</head>
+<body class="bg-light-green">
+    <div class="main-page  ">
+        <div  class=" w-100 bg-blue header pa1">
+            <h2 class="tc white f3 vd ls pa0 ">WeatherAPP</h2>
+        </div>
+        <form class="weather-form w-50 br3 bg-blue mra mla mt5 pa5 shadow-5" action="/weather" method="POST">
+            <h1 class="tc vd f3 white bg-black pa2 br3"> Deatils about  <%=City%> is :</h1>
+            <div class="bg-light-blue br3 pa2">
+            <h2 class="tl vd f4 black"> Temprature is  <%= Weather%> Degree Celsius</h2>
+            <h2 class="tl vd f4 black"> Region is <%= Region%></h2>
+            <h2 class="tl vd f4 black"> Country is <%= Country%></h2>
+            <h2 class="tl vd f4 black"> Latitude is <%= latitude%></h2>
+            <h2 class="tl vd f4 black"> Longitude is <%= longitude%></h2>
+            <h2 class="tl vd f4 black"> Local Time is <%= time%></h2>
+        </div>
+            
+        </form>
+    </div>
+</body>
+</html>
