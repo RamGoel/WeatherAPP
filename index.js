@@ -8,7 +8,7 @@ const bodyParser=require('body-parser')
 const path=require('path');
 const fs = require('fs')
 const http = require('http');
-
+const port=  process.env.PORT || 3000;
 
 
 
@@ -43,6 +43,6 @@ app.post('/weather', (req,res)=>{
   });
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('App listening on port 3000!');
 });
