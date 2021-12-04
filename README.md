@@ -1,14 +1,16 @@
 # WeatherAPP
 A NodeJS App using Weather API to get details about city
-<img src="img1.jpg">
+<br>
+<img src="img1.png">
 This is a city details app in ExpressJS, made by Ram Goel.
 
 
 Working: 
 
 Whenever you open the site you will see an option to enter city name and when you enter city name you will get some dtails balout the city you have entered. The details are being fetched by an WEATHER API.
+<br>
 
-<img src="img2.jpg">
+<img src="img2.png">
 
 
 
