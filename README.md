@@ -5,8 +5,8 @@ A NodeJS App using Weather API to get details about entered city.
 <br>
 This is a city details app in ExpressJS, made by Ram Goel.
 
-
-Working: 
+<hr>
+<h2>Working: </h2>
 
 Whenever you open the site you will see an option to enter city name and when you enter city name you will get some dtails balout the city you have entered. The details are being fetched by an WEATHER API.
 <br>
